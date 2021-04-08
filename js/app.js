@@ -1,3 +1,4 @@
+// Initialize BaguetteBox
 baguetteBox.run('.gallery');
 
 // Set keyup listener to Search box
