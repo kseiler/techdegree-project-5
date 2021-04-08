@@ -545,11 +545,19 @@ a {
   display: block;
 }
 
+footer {
+  padding: 2rem 0;
+}
+
 /* ============================================= */
 /*              Classes & ID's                   */
 /* ============================================= */
 .gallery {
   padding: 0 2rem;
+}
+
+footer p {
+  font-size: 0.75rem;
 }
 
 /* ============================================= */
@@ -602,14 +610,22 @@ input::placeholder {
 .nav-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  gap: 2rem;
   justify-items: center;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 2rem;
+  gap: 2rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

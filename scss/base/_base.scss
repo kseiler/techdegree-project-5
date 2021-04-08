@@ -21,10 +21,18 @@ a {
   display: block;
 }
 
+footer {
+  padding: 2rem 0;
+}
+
 /* ============================================= */
 /*              Classes & ID's                   */
 /* ============================================= */
 
 .gallery {
   padding: 0 2rem;
+}
+
+footer p {
+  font-size: .75rem;
 }
