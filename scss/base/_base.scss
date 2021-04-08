@@ -1,0 +1,30 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack-sans;
+  color: $color-text-primary;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  line-height: 0;
+  display: block;
+}
+
+/* ============================================= */
+/*              Classes & ID's                   */
+/* ============================================= */
+
+.gallery {
+  padding: 0 2rem;
+}
