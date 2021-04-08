@@ -3,7 +3,7 @@
 /* ============================================= */
 header {
   width: 100%;
-  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
   background-color: hsla(0, 0%, 100%, 0.72);
   position: sticky;
   top: 0;
