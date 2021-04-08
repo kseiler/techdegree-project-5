@@ -11,15 +11,15 @@ search.addEventListener('keyup', filterImages);
 
 function filterImages() {
     // Take 'search string' and format to lowercase
-    let input = document.getElementById('search').value;
-    input = input.toLowerCase();
+    let filter = document.getElementById('search').value;
+    filter = filter.toLowerCase();
     // Target links
     let link = document.getElementsByTagName('a');
     // Loop through each link and target the caption attribute
-    // Convert caption to lowercase and compare with input string
+    // Convert caption to lowercase and compare with filter string
     for ( let i = 0; i < link.length; i++ ) { 
         // if string matches do nothing (show content)
-        if ( link[i].getAttribute('data-caption').toLowerCase().includes(input) ) {
+        if ( link[i].getAttribute('data-caption').toLowerCase().includes(filter) ) {
             link[i].style.display = "";
         }
         // if no match then hide
